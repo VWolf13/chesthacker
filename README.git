@@ -12,7 +12,7 @@ pkg install git
 pkg install python
 git clone https://github.com/VWolf13/chesthacker
 cd chesthacker
-python vwolf.py
+python vwtools.py
 
 
 Herramientas subidas:
