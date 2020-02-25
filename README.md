@@ -4,6 +4,7 @@ Chest hacker
 Chest hacker es una herramienta en la que podrás instalar o desinstalar 
 Por el momento ninguna de las herramientas requiero acceso root
 
+
 Instalar chesthacker en la terminal:
 
 pkg install git 
