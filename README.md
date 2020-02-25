@@ -6,10 +6,14 @@ Por el momento ninguna de las herramientas requiero acceso root
 
 Instalar chesthacker en la terminal:
 
-pkg install git
+pkg install git 
+
 pkg install python
+
 git clone https://github.com/VWolf13/chesthacker
+
 cd chesthacker
+
 python vwolf.py
 
 
