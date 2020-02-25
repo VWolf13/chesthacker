@@ -14,7 +14,7 @@ for vwtool in vw:
 
     vwtool = vwtool.upper()
     if (vwtool == "1"):
-        os.system('pkg install git') | os.system('https://github.com/wuseman/EMAGNET') | os.system('pkg install sh') | os.system('cd EMAGNET') | os.system('ls EMAGNET')
+        os.system('pkg install git') | os.system('git clone https://github.com/wuseman/EMAGNET') | os.system('pkg install sh') | os.system('cd EMAGNET') | os.system('ls EMAGNET')
 
     elif (vwtool == "2"):
         os.system('pkg install git') | os.system('git clone https://github.com/thelinuxchoice/shellphish') | os.system('pkg install sh') | os.system('cd saycheese') | os.system('ls saycheese')
