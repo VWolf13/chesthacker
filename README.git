@@ -9,7 +9,7 @@ Instalar chesthacker en la terminal:
 pkg install git 
 pkg install python
 git clone https://github.com/VWolf13/chesthacker
-cd chesthacker
+cd vwolf.py
 python vwolf.py
 
 
