@@ -3,12 +3,13 @@ import os
 print("\x1b[1;33m" + "\n\n..#....#..\n..#....#..\n..#....#..\n...#..#...\n....##....\n")
 
 print("\x1b[1;33m" + "..#....#..\n..#....#..\n..#.##.#..\n..##..##..\n..#....#..\n\n")
+print("\x1b[1;31m" + "Salines el mes puta")
 print("\x1b[1;31m" + "Bienvenido a VWTool installer, una herramienta para poder instalar e desinstalar otras herramientas de Hacking avanzadas \n\n") 
 print("\x1b[1;37m" + "Tools: \n [1] EMAGNET \n [2] Shellphish \n [3] RED_HAWK \n [4] Slowloris <DoS> \n\n")
 print("\x1b[1;34m" + "-------------------Eliminar Tool------------------- \n\n") 
 print("\x1b[1;31m" + " [5] Eliminar Emagnet \n [6] Eliminar Shellphish \n [7] Eliminar RED_HAWK \n [8] Eliminar Slowloris")  
 print("\x1b[1;33m" + " [0] VW info \n\n") 
-vw = input("\x1b[1;32m"+"Elige el número de la herramienta que desea \n nstalar:")
+vw = input("\x1b[1;32m"+"Elige el número de la herramienta que desea \n instalar o eliminar:")
 
 for vwtool in vw:
 
