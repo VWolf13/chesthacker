@@ -57,7 +57,7 @@ then
 sleep 1.3
 echo 'Autor: https://vwolf.site'
 fi
-else if [ $vw = 5];
+elif [ $vw = 5];
 then
 sleep 1.3
 fi
