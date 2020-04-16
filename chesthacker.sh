@@ -1,5 +1,5 @@
 echo 'Loading...'
-sleep 4 & job=$!; while kill -0 $job 2>/dev/null; do for s in / - \\ \|; do printf "\r$s"; sleep .1; done; done
+sleep 4 & job=$!; while kill -0 $job 2>/dev/null; do for s in / - \\ \|; do printf "\r$        >
 clear
 echo '      ...       ...   ...       ...'
 sleep 0.1
@@ -18,7 +18,7 @@ sleep 0.1
 echo '           ...        ...       ...    ................'
 sleep 0.1
 echo ' '
-echo '✂ - - - - - - - - - - - - - - - - - - - - - - -' 
+echo '✂ - - - - - - - - - - - - - - - - - - - - - - -'
 echo ' '
 sleep 0.1
 echo -e '\e[31m╔✖[ 1 ] Instalar paquetes\e[1m'
@@ -29,7 +29,7 @@ echo -e '\e[31m╠✖[ 3 ] Eliminar Herramienta\e[1m'
 sleep 0.1
 echo -e '\e[31m╠✖[ 4 ] Info\e[1m'
 sleep 0.1
-echo -e '\e[31m╚✖[ 5 ] Salir\e[1m' 
+echo -e '\e[31m╚✖[ 5 ] Salir\e[1m'
 sleep 0.1
 echo ' '
 echo -e '\e[34mInserte la opción que desea utilizar:'
@@ -37,9 +37,9 @@ read vw
 if [ $vw = 1 ];
 then
 sleep 1.3
-echo 'Inserte el nombre del paquete que desea instalar ej.python:'
-read eliminar
-rm -rf $eliminar
+echo 'Inserte el nombre del paquete que desea instalar ej.python'
+read instalar
+rm -rf $instalar
 exit 0
 elif [ $vw = 2 ];
 then
@@ -54,7 +54,7 @@ rm -rf $eliminar
 elif [ $vw = 4 ];
 then
 sleep 1.3
-echo 'Autor: https://vwolf.site'  
+echo 'Autor: https://vwolf.site'
 elif [ $vw = 5];
 then
 sleep 1.3
