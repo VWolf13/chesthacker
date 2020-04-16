@@ -1,5 +1,5 @@
 echo 'Loading...'
-sleep 4 & job=$!; while kill -0 $job 2>/dev/null; do for s in / - \\ \|; do printf "\r$        >
+sleep 4 & job=$!; while kill -0 $job 2>/dev/null; do for s in / - \\ \|; do printf '\r$s'; sleep .1; done; done
 clear
 echo '      ...       ...   ...       ...'
 sleep 0.1
