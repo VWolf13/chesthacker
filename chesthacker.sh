@@ -39,8 +39,7 @@ then
 sleep 1.3
 echo 'Inserte el nombre del paquete que desea instalar ej.python'
 read instalar
-rm -rf $instalar
-exit 0
+pkg install $instalar
 elif [ $vw = 2 ];
 then
 sleep 1.3
