@@ -40,11 +40,11 @@ sleep 1.3
 echo 'Inserte el nombre del paquete que desea instalar ej.python'
 read instalar
 pkg install $instalar
-elif [ $vw = 2 ];
+else if [ $vw = 2 ];
 then
 sleep 1.3
 bash tools.sh
-elif [ $vw = 3 ];
+else if [ $vw = 3 ];
 then
 sleep 1.3
 echo  'inserte el nombre de la herramienta que desea eliminar:'
@@ -54,7 +54,7 @@ elif [ $vw = 4 ];
 then
 sleep 1.3
 echo 'Autor: https://vwolf.site'
-elif [ $vw = 5];
+else if [ $vw = 5];
 then
 sleep 1.3
 exit
