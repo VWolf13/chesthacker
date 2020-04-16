@@ -1,2 +1,2 @@
-cp code.txt > chesthacker.sh
+cp code.txt >> chesthacker.sh
 clear;bash chesthacker.sh
