@@ -56,62 +56,62 @@ then
 sleep 1.3
 https://github.com/Tuhinshubhra/RED_HAWK;bash tools.sh
 exit 0
-elif [ $vw = 2 ];
+else if [ $vw = 2 ];
 then
 sleep 0.5
 git clone https://github.com/VWolf13/fakeroot;bash tools.sh
 sleep 1.3
-elif [ $vw = 3 ];
+else if [ $vw = 3 ];
 then
 sleep 0.5
 git clone https://github.com/thehackingsage/hacktronian;bash tools.sh
 sleep 1.3
-elif [ $vw = 4 ];
+else if [ $vw = 4 ];
 then
 sleep 0.5
 git clone https://github.com/the-robot/sqliv;bash tools.sh
 sleep 1.3
-elif [ $vw = 5 ];
+else if [ $vw = 5 ];
 then
 sleep 0.5
 git clone https://github.com/llaera/slowloris.pl;bash tools.sh
 sleep 1.3
-elif [ $vw = 6 ];
+else if [ $vw = 6 ];
 then
 sleep 0.5
 git clone https://github.com/thelinuxchoice/userrecon;bash tools.sh
 sleep 1.3
-elif [ $vw = 7 ];
+else if [ $vw = 7 ];
 then
 sleep 0.5
 git clone https://github.com/sabri-zaki/EasY_HaCk;bash tools.sh
 sleep 1.3
-elif [ $vw = 8 ];
+else if [ $vw = 8 ];
 then
 sleep 0.5
 git clone https://github.com/Gameye98/Lazymux;bash tools.sh
 sleep 1.3
-elif [ $vw = 9 ];
+else if [ $vw = 9 ];
 then
 sleep 0.5
 git clone https://github.com/maldevel/IPGeoLocation;bash tools.sh
 sleep 1.3
-elif [ $vw = 10 ];
+else if [ $vw = 10 ];
 then
 sleep 0.5
 git clone https://github.com/m4ll0k/Infoga;bash tools.sh
 sleep 1.3
-elif [ $vw = 11 ];
+else if [ $vw = 11 ];
 then
 sleep 0.5
 git clone https://github.com/VWolf13/lang-esp;bash tools.sh
 sleep 1.3
-elif [ $vw = 12 ];
+else if [ $vw = 12 ];
 then
 sleep 0.5
 git clone https://github.com/sundowndev/PhoneInfoga;bash tools.sh
 sleep 1.3
-elif [ $vw = 13 ];
+else if [ $vw = 13 ];
 then
 sleep 0.5
 git clone https://github.com/llaera/slowloris.pl;bash tools.sh
