@@ -58,12 +58,11 @@ then
         sleep 1.3
         echo 'Autor: https://vwolf.site'
 
-if [ $vw = 5 ]
+elif [ $vw = 5 ]
 then
         sleep 1.3
         exit
 else
         echo "Por favor introduce una opción dentro de las disponibles"
         bash chesthacker.sh
-        fi
 fi
