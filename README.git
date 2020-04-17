@@ -3,21 +3,18 @@
                                               
 
 Chest hacker
-Chest hacker es una herramienta en la que podrás instalar o desinstalar otras herramientas de hacking avanzado.
-Ninguna de las herramientas subida hasta ahora requiere ROOT.
-Por el momento se encuentran 4 herramientas, a diairio va a ampliarse su tamaño
+Chest hacker es una herramienta en la que podrás instalar o desinstalar otras herramientas, aparte podrás instalar o desinstalar las herramientas instaladas^^.
+Ninguna de las herramientas subida hasta ahora requiere ROOT
+Por el momento se encuentran 13 herramientas, a diairio va a ampliarse su tamaño^^. 
 
 Instalar chesthacker en la terminal:
+
 pkg install git 
-pkg install python
+pkg install bash
 git clone https://github.com/VWolf13/chesthacker
 cd chesthacker
-python vwtools.py
+bash vwtools.sh
 
 
-Herramientas subidas:
-
-EMAGNET
-ShellPhish
-RED_HAWK
-Slowloris.pl
+Disfrute ^^
+Autor https://vwolf.site
