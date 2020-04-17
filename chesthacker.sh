@@ -44,7 +44,8 @@ then
 elif [ $vw = 2 ]
 then
         sleep 1.3
-        bash tools.sh
+        dos2unix tools.sh
+        chmod +x tools.sh;./tools.sh
 
 elif [ $vw = 3 ]
 then
