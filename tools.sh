@@ -120,5 +120,6 @@ else
 echo 'Por favor inserte un numero del que se encuentra en la lista'
 sleep 4
 bash tools.sh
-exit 0
+exit
+  fi
 fi
