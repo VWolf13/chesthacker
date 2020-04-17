@@ -18,7 +18,7 @@ sleep 0.1
 echo '           ...        ...       ...    ..........'
 sleep 0.1
 echo ' '
-echo '✂ - - - - - - - - - - - - - - - - - - - - - - -'
+echo '✂ - - - - - - - - - - - - - - - - - - - - - - -' $date
 echo ' '
 sleep 0.1
 echo -e '\e[31m╔✖[ 1 ] Instalar paquetes\e[1m'
