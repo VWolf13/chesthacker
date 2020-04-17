@@ -34,34 +34,35 @@ sleep 0.1
 echo ' '
 echo -e '\e[34mInserte la opción que desea utilizar:'
 read vw
-if [ $vw = 1 ];
+if [ $vw = 1 ]
 then
-sleep 1.3
-echo 'Inserte el nombre del paquete que desea instalar ej.python'
-read instalar
-pkg install $instalary
-fi
-if [ $vw = 2 ];
+        sleep 1.3
+        echo 'Inserte el nombre del paquete que desea instalar ej.python'
+        read instalar
+        pkg install $instalary
+        
+elif [ $vw = 2 ]
 then
-sleep 1.3
-bash tools.sh
-fi
-if [ $vw = 3 ];
+        sleep 1.3
+        bash tools.sh
+
+elif [ $vw = 3 ]
 then
-sleep 1.3
-echo  'inserte el nombre de la herramienta que desea eliminar:'
-read eliminar
-rm -rf $eliminar
-fi
-if [ $vw = 4 ];
+        sleep 1.3
+        echo  'inserte el nombre de la herramienta que desea eliminar:'
+        read eliminar
+        rm -rf $eliminar
+
+elif [ $vw = 4 ]
 then
-sleep 1.3
-echo 'Autor: https://vwolf.site'
-fi
-if [ $vw = 5 ];
-sleep 1.3
+        sleep 1.3
+        echo 'Autor: https://vwolf.site'
+
+if [ $vw = 5 ]
 then
-sleep 2
-exit
-        fi
+        sleep 1.3
+        exit
+else
+        echo "Por favor introduce una opción dentro de las disponibles"
+        bash chesthacker.sh
 fi
