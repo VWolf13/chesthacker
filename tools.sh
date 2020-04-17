@@ -127,6 +127,5 @@ then
 sleep 0.5
 git clone https://github.com/llaera/slowloris.pl;bash tools.sh
 sleep 1.3
-exit 0
+exit
 fi
-exit 0
