@@ -55,8 +55,7 @@ if [ $vw = 1 ]
 then
         sleep 1.3
         https://github.com/Tuhinshubhra/RED_HAWK;bash tools.sh
-
-elif [ $vw = 2 ];
+elif [ $vw = 2 ]
 then
         sleep 0.5
         git clone https://github.com/VWolf13/fakeroot;bash tools.sh
