@@ -65,4 +65,5 @@ then
 else
         echo "Por favor introduce una opción dentro de las disponibles"
         bash chesthacker.sh
+        fi
 fi
