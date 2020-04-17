@@ -123,8 +123,8 @@ git clone https://github.com/sundowndev/PhoneInfoga;bash tools.sh
 sleep 1.3
 fi
 if [ $vw = 13 ];
-then
 sleep 0.5
+then
 git clone https://github.com/llaera/slowloris.pl;bash tools.sh
 sleep 1.3
 exit
