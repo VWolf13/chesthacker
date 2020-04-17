@@ -91,7 +91,7 @@ then
         git clone https://github.com/sabri-zaki/EasY_HaCk;bash tools.sh
         sleep 1.3
 
-elifelif [ $vw = 8 ]
+elif [ $vw = 8 ]
 then
         sleep 0.5
         git clone https://github.com/Gameye98/Lazymux;bash tools.sh
