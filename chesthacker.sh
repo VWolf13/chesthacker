@@ -1,5 +1,5 @@
+echo ' '
 echo 'Loading...'
-sleep 4 & job=$!; while kill -0 $job 2>/dev/null; do for s in / - \\ \|; do printf "\r$s"; sleep .1; done; done
 clear
 echo '      ...       ...   ...       ...'
 sleep 0.1
@@ -39,31 +39,29 @@ then
 sleep 1.3
 echo 'Inserte el nombre del paquete que desea instalar ej.python'
 read instalar
-pkg install $instalar
-elif [ $vw = 2 ];
+pkg install $instalary
+fi
+if [ $vw = 2 ];
 then
 sleep 1.3
 bash tools.sh
 fi
-elif [ $vw = 3 ];
+if [ $vw = 3 ];
 then
 sleep 1.3
 echo  'inserte el nombre de la herramienta que desea eliminar:'
 read eliminar
 rm -rf $eliminar
 fi
-elif [ $vw = 4 ];
+if [ $vw = 4 ];
 then
 sleep 1.3
 echo 'Autor: https://vwolf.site'
 fi
-elif [ $vw = 5];
-then
+if [ $vw = 5 ];
 sleep 1.3
-fi
-else
-echo 'Por favor inserte un numero del que se encuentra en la lista'
-sleep 4
-bash chesthacker.sh
-exit 0
+then
+sleep 2
+exit
+        fi
 fi
