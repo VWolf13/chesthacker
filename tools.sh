@@ -109,19 +109,19 @@ then
         git clone https://github.com/m4ll0k/Infoga;bash tools.sh
         sleep 1.3
 
-if [ $vw = 11 ]
+elif [ $vw = 11 ]
 then
         sleep 0.5
         git clone https://github.com/VWolf13/lang-esp;bash tools.sh
         sleep 1.3
 
-if [ $vw = 12 ]
+elif [ $vw = 12 ]
 then
         sleep 0.5
         git clone https://github.com/sundowndev/PhoneInfoga;bash tools.sh
         sleep 1.3
 
-if [ $vw = 13 ]
+elif [ $vw = 13 ]
 then
         sleep 0.5
         git clone https://github.com/llaera/slowloris.pl;bash tools.sh
