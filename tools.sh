@@ -49,8 +49,7 @@ sleep 0.1
 echo -e '\e[31m╚❥[ 13 ] Slowloris.pl\e[1m' 
 sleep 0.1
 echo ' '
-echo -e '\e[34mInserte el número de la herramienta que desea instalar:'
-read vw
+read -p Inserte el número de la herramienta que desea instalar: ' vw
 if [ $vw = 1 ]
 then
         sleep 1.3
