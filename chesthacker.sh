@@ -33,8 +33,7 @@ sleep 0.1
 echo -e '\e[31m╚✖[ 5 ] Salir\e[1m'
 sleep 0.1
 echo ' '
-echo -e '\e[34mInserte la opción que desea utilizar:'
-read vw
+read -p 'Inserte la opción que desea utilizar:' vw
 if [ $vw = 1 ]
 then
         sleep 1.3
